@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    overflow-x: hidden !important;
+    gap: 0;
+    width: 100%;
+}
+
+.content-message,
+footer {
+    text-align: center;
+}
+
+.page-header {
+    background-color: #24053E;
+    border-bottom-left-radius: 50% 9%;
+    border-bottom-right-radius: 50% 9%;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+
+}
+
+.apply {
+    color: #FFF;
+    text-decoration: underline 0.188rem #44FFA1;
+    text-underline-offset: 0.5rem;
+}
+
+.apply:hover {
+    color: #44FFA1;
+    cursor: pointer;
+}
+
+.hero-header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero-header h1 {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    letter-spacing: -.125rem;
+}
+
+.hero-header span {
+    text-decoration: underline #44FFA1;
+    text-underline-offset: 0.5rem;
+}
+
+.hero-button-container,
+.message-button-container {
+    text-align: center;
+}
+
+.hero-button,
+.message-button {
+    font-family: "Manrope", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: #44FFA1;
+    color: #24053E;
+    border: 1px solid transparent;
+    padding: .75rem 1.5rem;
+    width: fit-content;
+}
+
+.hero-button:hover,
+.message-button:hover {
+    background-color: transparent;
+    color: #44FFA1;
+    border: 1px solid #44FFA1;
+    cursor: pointer;
+}
+
+
+.hero-phone {
+    width: 100%;
+    max-width: 100%;
+    transform: translate(0, 4rem);
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content-advantage {
+    position: relative;
+    background: #FCF8FF;
+    border-bottom-left-radius: 50% 9%;
+    border-bottom-right-radius: 50% 9%;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    z-index: -2;
+    top: -2rem;
+    padding: 8rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+
+.content-advantage-items {
+    margin: 2.5rem 1rem;
+}
+
+.number-style {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    border: 1px solid #24053E;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-advantage-title h2{
+    color: #24053E;
+    font-family: "Fraunces", serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.content-advantage-description p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1rem;
+    color: #584D62;
+    line-height: 1.75rem;
+}
+
+.content-message {
+    padding:5.625rem 1rem 0 1rem;
+}
+
+
+.icon-image-container {
+    width: 100%;
+}
+
+.founder-icon {
+    max-width: 100%;
+    height: 37.5%;
+    width: 75%;
+    margin: auto;
+}
+
+.content-message-description {
+    background-color: #24053E;
+    position: relative;
+    top: -4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.content-message-description h2 {
+    color: #FFF;
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.content-message-description p {
+    color: #FFF;
+    font-family: "Manrope", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 0 1rem 2rem 1rem; 
+
+}
+
+.message-button {
+    margin-bottom: 2rem;
+}
+
+footer {
+    display: grid;
+    gap: 3.625rem;
+    margin-bottom: 3.924rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+
+}
+
+
+/*tablet*/
+
+@media only screen and (min-width: 48rem) {
+
+    body {
+        max-width: 63.938rem;
+    }
+
+    .nav-container {
+        padding: 2.5rem;
+    }
+
+    .hero {
+        background:url(../images/bg-pattern-1.svg) -40% 0% no-repeat,
+        url(../images/bg-pattern-2.svg) 110% 60% no-repeat;
+    }
+
+    .hero-header h1 {
+        font-size: 3.75rem;
+        max-width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-phone-image-container {
+        margin-top: 2rem;
+    } 
+   
+    .hero-phone {
+        max-width: 80%;
+        transform: translate(0, 8rem);
+
+    }
+
+    .content-advantage {
+        position: relative;
+        padding-top: 15rem; 
+        padding-bottom: 5rem;
+        margin-bottom: 5.625rem;
+    }
+
+    .content-advantage-items {
+        display: grid;
+        text-align: left;
+        margin: 0 2rem 0 6.25rem;
+    }
+
+    .number-style {
+        margin: 3rem 0;
+        grid-area: b;
+    }
+
+    .content-advantage-title {
+        grid-area: a;
+        padding: 0 4rem;
+    }
+
+    .content-advantage-description {
+        grid-area: c;
+        padding: 4rem 5rem 3rem 5rem;
+    }
+
+    .wrap-content-advantage {
+        position: relative;
+        width: 100%;
+    }
+
+    .content-message {
+        padding: 0;
+    }
+
+    .content-message::before {
+        content: '';
+        position: absolute;
+        z-index: 5;
+        background: url(../images/bg-pattern-3.svg) 20% no-repeat;
+        height: 100%;
+        width: 100%;
+        transform: translate(-2rem, 6rem) scale(.8);
+        padding: 5rem;
+  
+    }
+
+    .founder-icon {
+        width: 41%;
+    }
+
+    .icon-image-container {
+        text-align: left;
+    }
+
+    .content-message {
+        /*padding:0 2.438rem;*/
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .content-message-description {
+        top: -9rem;
+        left: 6rem;
+        width: 72%;
+        text-align: left;
+        padding: 3rem;
+        margin: 0 auto;
+    }
+
+    .content-message-description h2 {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .content-message-description p {
+        padding: 0 0 2rem 0;
+    }
+
+    .message-button-container {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .message-button {
+        margin-bottom: 0;
+    }
+
+}
+
+/*desktop*/
+
+@media only screen and (min-width: 64rem) {
+    body {
+        width: 100%;
+        max-width: 90rem; /*1440px*/
+    }
+    
+    .nav-container {
+        padding: 3.611rem;
+    }
+
+    .hero {
+        background: url(../images/bg-pattern-1.svg) -14% 10% no-repeat, 
+                    url(../images/bg-pattern-2.svg) 103% 46% no-repeat;
+    }
+
+    .hero-header h1 {
+        font-size: 5rem;
+        max-width: 55%;
+    }
+
+    .hero-button,
+    .message-button {
+        padding: 1rem 2rem;
+    }
+
+
+    .hero-phone {
+        max-width: 85%;
+        transform: translate(0, 8rem);
+    }
+
+    .content-advantage {
+        display: flex;
+        top: -4rem;
+        padding-bottom: 6.25rem;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15rem 0 6.25rem 0;
+    }
+
+    .content-advantage-items {
+        display: revert;
+        margin: 0;
+        text-align: center;
+        width: 30%;
+    }
+
+    .number-style {
+        margin: auto;
+    }
+
+    .content-advantage-title {
+        padding: 0;
+    }
+
+    .content-advantage-description {
+        padding: 1rem;
+    }
+
+    .content-advantage-title h2 {
+        font-size: 2rem;
+    }
+    
+    .content-advantage-description p {
+        font-size: 1.125rem;
+    }
+
+    .content-message::before {
+        padding: 5rem;
+    }
+
+    .content-message {
+        width: 80%;
+    }
+
+    .founder-icon {
+        width: 42%;
+        max-width: 42%;
+    }
+
+    .content-message-description {
+        top: -16rem;
+        left: 8rem;
+        margin: 0 auto;
+        width: 52vw;
+        padding: 4rem;
+    }
+
+    .content-message-description h2 {
+        font-size: 3.5rem;
+    }
+
+    .content-message-description p {
+        font-size: 1.125rem;
+    }
+
+}
