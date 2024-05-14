@@ -161,10 +161,10 @@ footer {
 }
 
 .founder-icon {
-    max-width: 100%;
-    height: 37.5%;
-    width: 75%;
-    margin: auto;
+    max-width: 17.563rem;
+    margin-left: auto;
+    margin-right: auto;
+   display: block;
 }
 
 .content-message-description {
@@ -294,7 +294,8 @@ footer {
     }
 
     .founder-icon {
-        width: 41%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .icon-image-container {
@@ -415,8 +416,7 @@ footer {
     }
 
     .founder-icon {
-        width: 42%;
-        max-width: 42%;
+        max-width: 28.125rem;
     }
 
     .content-message-description {
